@@ -1,1 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VEER VIGYAN – Your Learning Universe</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Poppins + Playfair Display -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
 
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <span class="logo-icon">⚛</span>
+        <span class="logo-text">VEER <span class="logo-accent">VIGYAN</span></span>
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
+      <label for="menu-toggle" class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#pdf">PDF</a>
+        <a href="#books">Books</a>
+        <a href="#classes">Classes</a>
+        <a href="#tests">Test Series</a>
+        <a href="#notes">Notes</a>
+        <a href="#mcqs">MCQs</a>
+        <a href="#mcqs" class="nav-cta">Start Learning →</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-blobs">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">🎓 India's Favourite Science Hub</div>
+      <h1 class="hero-title">
+        Learn Science.<br/>
+        <span class="gradient-text">Master Your Future.</span>
+      </h1>
+      <p class="hero-sub">
+        VEER VIGYAN brings you world-class PDFs, books, live classes, test series,
+        notes &amp; MCQs — all in one beautifully simple platform.
+      </p>
+      <div class="hero-btns">
+        <a href="#classes" class="btn btn-primary">Explore Classes</a>
+        <a href="#mcqs" class="btn btn-outline">Practice MCQs</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>12,000+</strong><span>Students</span></div>
+        <div class="stat"><strong>500+</strong><span>Study PDFs</span></div>
+        <div class="stat"><strong>300+</strong><span>MCQs</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-card fc1">📄 Physics Notes</div>
+      <div class="floating-card fc2">🧪 Chemistry MCQs</div>
+      <div class="floating-card fc3">📐 Maths Formulas</div>
+      <div class="hero-orb"></div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION DIVIDER ===== -->
+  <div class="wave-divider">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#f0faf4"/>
+    </svg>
+  </div>
+
+  <!-- ===== PDF SECTION ===== -->
+  <section id="pdf" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">📄 Resources</span>
+        <h2>Study PDFs</h2>
+        <p>Download high-quality, exam-ready PDFs curated by top educators.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon" style="background:#e8f5e9;">📘</div>
+          <h3>Physics – Class 11</h3>
+          <p>Mechanics, Thermodynamics, Waves & full NCERT coverage.</p>
+          <a href="#" class="card-link">Download PDF →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon" style="background:#e3f2fd;">🧪</div>
+          <h3>Chemistry – Class 12</h3>
+          <p>Organic, Inorganic & Physical Chemistry complete notes.</p>
+          <a href="#" class="card-link">Download PDF →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon" style="background:#f3e5f5;">📐</div>
+          <h3>Maths Formula Sheet</h3>
+          <p>500+ formulas for JEE, NEET, and Board Exams.</p>
+          <a href="#" class="card-link">Download PDF →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon" style="background:#fff8e1;">🌿</div>
+          <h3>Biology – NEET Ready</h3>
+          <p>Botany & Zoology chapter-wise PDFs with diagrams.</p>
+          <a href="#" class="card-link">Download PDF →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon" style="background:#fce4ec;">⚗️</div>
+          <h3>PYQ Papers</h3>
+          <p>Previous year question papers with detailed solutions.</p>
+          <a href="#" class="card-link">Download PDF →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon" style="background:#e0f7fa;">🗂️</div>
+          <h3>Revision Sheets</h3>
+          <p>Last-minute quick revision for all major subjects.</p>
+          <a href="#" class="card-link">Download PDF →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOOKS SECTION ===== -->
+  <section id="books" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">📚 Library</span>
+        <h2>Recommended Books</h2>
+        <p>Expert-curated reading list for every major competitive exam.</p>
+      </div>
+      <div class="book-grid">
+        <div class="book-card">
+          <div class="book-cover" style="background: linear-gradient(135deg,#43e97b,#38f9d7);">
+            <span>H.C. Verma</span>
+          </div>
+          <div class="book-info">
+            <h4>Concepts of Physics Vol 1 &amp; 2</h4>
+            <p>Best for JEE &amp; Boards</p>
+            <span class="book-badge">Physics</span>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="book-cover" style="background: linear-gradient(135deg,#4facfe,#00f2fe);">
+            <span>NCERT</span>
+          </div>
+          <div class="book-info">
+            <h4>NCERT Chemistry (11 &amp; 12)</h4>
+            <p>Foundation for NEET &amp; JEE</p>
+            <span class="book-badge">Chemistry</span>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="book-cover" style="background: linear-gradient(135deg,#f093fb,#f5576c);">
+            <span>R.D. Sharma</span>
+          </div>
+          <div class="book-info">
+            <h4>Mathematics (Class 12)</h4>
+            <p>Comprehensive &amp; detailed</p>
+            <span class="book-badge">Maths</span>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="book-cover" style="background: linear-gradient(135deg,#ffecd2,#fcb69f);">
+            <span>Trueman's</span>
+          </div>
+          <div class="book-info">
+            <h4>Elementary Biology Vol 1 &amp; 2</h4>
+            <p>NEET Biology essential</p>
+            <span class="book-badge">Biology</span>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="book-cover" style="background: linear-gradient(135deg,#a18cd1,#fbc2eb);">
+            <span>Arihant</span>
+          </div>
+          <div class="book-info">
+            <h4>40 Years JEE PYQs</h4>
+            <p>Must-have for JEE Advanced</p>
+            <span class="book-badge">JEE</span>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="book-cover" style="background: linear-gradient(135deg,#96fbc4,#f9f586);">
+            <span>MTG</span>
+          </div>
+          <div class="book-info">
+            <h4>33 Years NEET PYQs</h4>
+            <p>Chapter-wise with solutions</p>
+            <span class="book-badge">NEET</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CLASSES SECTION ===== -->
+  <section id="classes" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🎥 Live &amp; Recorded</span>
+        <h2>Classes</h2>
+        <p>Learn from India's best teachers through structured video courses.</p>
+      </div>
+      <div class="class-grid">
+        <div class="class-card featured">
+          <div class="class-label">🔥 Most Popular</div>
+          <h3>JEE Mains Crash Course</h3>
+          <p>60-day intensive program covering all three subjects with daily tests.</p>
+          <ul class="class-features">
+            <li>✅ 200+ Video Lectures</li>
+            <li>✅ Daily Practice Tests</li>
+            <li>✅ Doubt-Solving Sessions</li>
+            <li>✅ PDF Notes Included</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Enroll Now</a>
+        </div>
+        <div class="class-card">
+          <h3>NEET Biology Masterclass</h3>
+          <p>In-depth Botany &amp; Zoology from NCERT + previous year analysis.</p>
+          <ul class="class-features">
+            <li>✅ 150+ Lectures</li>
+            <li>✅ NCERT Line by Line</li>
+            <li>✅ Weekly MCQ Tests</li>
+          </ul>
+          <a href="#" class="btn btn-outline">View Course</a>
+        </div>
+        <div class="class-card">
+          <h3>Class 11 &amp; 12 Science</h3>
+          <p>Complete board exam preparation with CBSE &amp; state board syllabus.</p>
+          <ul class="class-features">
+            <li>✅ Chapter-wise Videos</li>
+            <li>✅ Sample Papers</li>
+            <li>✅ Revision Shorts</li>
+          </ul>
+          <a href="#" class="btn btn-outline">View Course</a>
+        </div>
+        <div class="class-card">
+          <h3>Physics Special Batch</h3>
+          <p>Problem-solving techniques and shortcuts for advanced level Physics.</p>
+          <ul class="class-features">
+            <li>✅ Numericals Practice</li>
+            <li>✅ Formula Sheets</li>
+            <li>✅ Live Q&amp;A</li>
+          </ul>
+          <a href="#" class="btn btn-outline">View Course</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEST SERIES SECTION ===== -->
+  <section id="tests" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">📝 Evaluate Yourself</span>
+        <h2>Test Series</h2>
+        <p>Simulate real exam conditions and track your performance over time.</p>
+      </div>
+      <div class="test-grid">
+        <div class="test-card">
+          <div class="test-icon">🏆</div>
+          <h3>JEE Mains Mock Test</h3>
+          <div class="test-meta">
+            <span>⏱ 3 Hours</span>
+            <span>📋 90 Questions</span>
+            <span>🎯 300 Marks</span>
+          </div>
+          <p>Full-length JEE Mains pattern test with auto-evaluation &amp; rank prediction.</p>
+          <a href="#" class="btn btn-primary">Start Test</a>
+        </div>
+        <div class="test-card">
+          <div class="test-icon">🧬</div>
+          <h3>NEET Full Mock Test</h3>
+          <div class="test-meta">
+            <span>⏱ 3 Hours 20 Min</span>
+            <span>📋 180 Questions</span>
+            <span>🎯 720 Marks</span>
+          </div>
+          <p>NEET-UG pattern with Biology, Physics &amp; Chemistry in one go.</p>
+          <a href="#" class="btn btn-primary">Start Test</a>
+        </div>
+        <div class="test-card">
+          <div class="test-icon">📖</div>
+          <h3>Chapter-wise Tests</h3>
+          <div class="test-meta">
+            <span>⏱ 30 Min</span>
+            <span>📋 25 Questions</span>
+            <span>🎯 100 Marks</span>
+          </div>
+          <p>Targeted tests on individual chapters for focused revision.</p>
+          <a href="#" class="btn btn-primary">Start Test</a>
+        </div>
+        <div class="test-card">
+          <div class="test-icon">⚡</div>
+          <h3>Daily Practice Test</h3>
+          <div class="test-meta">
+            <span>⏱ 15 Min</span>
+            <span>📋 10 Questions</span>
+            <span>🎯 40 Marks</span>
+          </div>
+          <p>Short daily tests to keep your preparation consistent every day.</p>
+          <a href="#" class="btn btn-primary">Start Test</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NOTES SECTION ===== -->
+  <section id="notes" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">📓 Handwritten &amp; Typed</span>
+        <h2>Study Notes</h2>
+        <p>Concise, exam-focused notes for every chapter and topic.</p>
+      </div>
+      <div class="notes-grid">
+        <div class="note-card">
+          <div class="note-top" style="background:linear-gradient(135deg,#d4edda,#a8e6cf);">
+            <span class="note-subject">Physics</span>
+            <span class="note-emoji">⚡</span>
+          </div>
+          <div class="note-body">
+            <h4>Electrostatics – Complete Notes</h4>
+            <p>Coulomb's Law, Electric Field, Potential — all in one crisp PDF.</p>
+            <div class="note-footer">
+              <span>📄 12 Pages</span>
+              <a href="#">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="note-card">
+          <div class="note-top" style="background:linear-gradient(135deg,#bee3f8,#90cdf4);">
+            <span class="note-subject">Chemistry</span>
+            <span class="note-emoji">🧪</span>
+          </div>
+          <div class="note-body">
+            <h4>Periodic Table &amp; Trends</h4>
+            <p>Element properties, ionization energy, and trends explained.</p>
+            <div class="note-footer">
+              <span>📄 8 Pages</span>
+              <a href="#">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="note-card">
+          <div class="note-top" style="background:linear-gradient(135deg,#ffeaa7,#fdcb6e);">
+            <span class="note-subject">Maths</span>
+            <span class="note-emoji">📐</span>
+          </div>
+          <div class="note-body">
+            <h4>Integration Techniques</h4>
+            <p>All methods: substitution, parts, partial fractions with examples.</p>
+            <div class="note-footer">
+              <span>📄 15 Pages</span>
+              <a href="#">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="note-card">
+          <div class="note-top" style="background:linear-gradient(135deg,#c3f0ca,#a8e6a3);">
+            <span class="note-subject">Biology</span>
+            <span class="note-emoji">🌿</span>
+          </div>
+          <div class="note-body">
+            <h4>Cell Division – Mitosis &amp; Meiosis</h4>
+            <p>Phases, diagrams, differences and NEET-style questions.</p>
+            <div class="note-footer">
+              <span>📄 10 Pages</span>
+              <a href="#">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="note-card">
+          <div class="note-top" style="background:linear-gradient(135deg,#ffd6d6,#ffb3b3);">
+            <span class="note-subject">Physics</span>
+            <span class="note-emoji">🔭</span>
+          </div>
+          <div class="note-body">
+            <h4>Ray Optics &amp; Optical Instruments</h4>
+            <p>Reflection, refraction, lenses, and human eye — full coverage.</p>
+            <div class="note-footer">
+              <span>📄 14 Pages</span>
+              <a href="#">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="note-card">
+          <div class="note-top" style="background:linear-gradient(135deg,#e8d5f5,#c9b3e8);">
+            <span class="note-subject">Chemistry</span>
+            <span class="note-emoji">⚗️</span>
+          </div>
+          <div class="note-body">
+            <h4>Organic Reactions Summary</h4>
+            <p>Named reactions, mechanisms and trick shortcuts for JEE/NEET.</p>
+            <div class="note-footer">
+              <span>📄 18 Pages</span>
+              <a href="#">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MCQ SECTION ===== -->
+  <section id="mcqs" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🎯 Practice</span>
+        <h2>MCQs</h2>
+        <p>Test your concepts with our carefully selected multiple choice questions.</p>
+      </div>
+
+      <!-- MCQ Filter Tabs -->
+      <div class="mcq-tabs">
+        <span class="mcq-tab active">All</span>
+        <span class="mcq-tab">Physics</span>
+        <span class="mcq-tab">Chemistry</span>
+        <span class="mcq-tab">Biology</span>
+        <span class="mcq-tab">Maths</span>
+      </div>
+
+      <!-- MCQ Cards -->
+      <div class="mcq-list">
+
+        <!-- Q1 -->
+        <div class="mcq-card">
+          <div class="mcq-header">
+            <span class="mcq-num">Q1</span>
+            <span class="mcq-subject physics-tag">Physics</span>
+          </div>
+          <p class="mcq-question">Which of the following quantities is a scalar?</p>
+          <div class="mcq-options">
+            <label class="mcq-option">
+              <input type="radio" name="q1" value="a"/>
+              <span class="option-letter">A</span>
+              <span>Electric Field</span>
+            </label>
+            <label class="mcq-option">
+              <input type="radio" name="q1" value="b"/>
+              <span class="option-letter">B</span>
+              <span>Velocity</span>
+            </label>
+            <label class="mcq-option correct-option">
+              <input type="radio" name="q1" value="c"/>
+              <span class="option-letter">C</span>
+              <span>Electric Potential ✓</span>
+            </label>
+            <label class="mcq-option">
+              <input type="radio" name="q1" value="d"/>
+              <span class="option-letter">D</span>
+              <span>Magnetic Force</span>
+            </label>
+          </div>
+          <div class="mcq-explanation">
+            💡 <strong>Explanation:</strong> Electric Potential is a scalar quantity as it has only magnitude, no direction.
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="mcq-card">
+          <div class="mcq-header">
+            <span class="mcq-num">Q2</span>
+            <span class="mcq-subject chem-tag">Chemistry</span>
+          </div>
+          <p class="mcq-question">The atomic number of Carbon is 6. What is the electronic configuration of Carbon?</p>
+          <div class="mcq-options">
+            <label class="mcq-option">
+              <input type="radio" name="q2" value="a"/>
+              <span class="option-letter">A</span>
+              <span>1s² 2s² 2p³</span>
+            </label>
+            <label class="mcq-option correct-option">
+              <input type="radio" name="q2" value="b"/>
+              <span class="option-letter">B</span>
+              <span>1s² 2s² 2p² ✓</span>
+            </label>
+            <label class="mcq-option">
+              <input type="radio" name="q2" value="c"/>
+              <span class="option-letter">C</span>
+              <span>1s² 2s¹ 2p³</span>
+            </label>
+            <label class="mcq-option">
+              <input type="radio" name="q2" value="d"/>
+              <span class="option-letter">D</span>
+              <span>1s² 2s² 2p⁴</span>
+            </label>
+          </div>
+          <div class="mcq-explanation">
+            💡 <strong>Explanation:</strong> Carbon has 6 electrons. Configuration: 1s² 2s² 2p² with 4 valence electrons.
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="mcq-card">
+          <div class="mcq-header">
+            <span class="mcq-num">Q3</span>
+            <span class="mcq-subject bio-tag">Biology</span>
+          </div>
+          <p class="mcq-question">Which organelle is called the "Powerhouse of the Cell"?</p>
+          <div class="mcq-options">
+            <label class="mcq-option">
+              <input type="radio" name="q3" value="a"/>
+              <span class="option-letter">A</span>
+              <span>Nucleus</span>
+            </label>
+            <label class="mcq-option">
+              <input type="radio" name="q3" value="b"/>
+ 
